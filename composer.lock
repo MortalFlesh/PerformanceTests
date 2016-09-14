@@ -1,0 +1,199 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "b2bae7be943387c1ce2885d3071e31e7",
+    "content-hash": "a810c23e54ccbd254f5f016a61855820",
+    "packages": [
+        {
+            "name": "mf/callback-parser",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MortalFlesh/CallbackParser.git",
+                "reference": "b7cbc74771ad1139468b65a46dd16b9b803c96a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MortalFlesh/CallbackParser/zipball/b7cbc74771ad1139468b65a46dd16b9b803c96a2",
+                "reference": "b7cbc74771ad1139468b65a46dd16b9b803c96a2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5 || >=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.7",
+                "satooshi/php-coveralls": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MF\\Parser\\": "src",
+                    "MF\\Tests\\": "Tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Petr Chromec",
+                    "email": "mortal_flesh@seznam.cz"
+                }
+            ],
+            "description": "PHP parser for arrow functions",
+            "time": "2016-09-05 16:40:22"
+        },
+        {
+            "name": "mf/collections-php",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MortalFlesh/MFCollectionsPHP.git",
+                "reference": "8511bddc40694fd4e984c6c046548377ed64d665"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MortalFlesh/MFCollectionsPHP/zipball/8511bddc40694fd4e984c6c046548377ed64d665",
+                "reference": "8511bddc40694fd4e984c6c046548377ed64d665",
+                "shasum": ""
+            },
+            "require": {
+                "mf/callback-parser": "^1.0",
+                "mf/type-validator": "^1.0",
+                "php": ">=5.5 || >=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.7",
+                "satooshi/php-coveralls": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MF\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Petr Chromec",
+                    "email": "mortal_flesh@seznam.cz"
+                }
+            ],
+            "description": "Collections for PHP - It's basically a syntax sugar over classic array structure, which allows you to use it as classic array, but adds some cool features.",
+            "time": "2016-09-14 18:57:56"
+        },
+        {
+            "name": "mf/type-validator",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MortalFlesh/TypeValidator.git",
+                "reference": "05c2fb627f5b8cb2c7203976832fa73af681e5b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MortalFlesh/TypeValidator/zipball/05c2fb627f5b8cb2c7203976832fa73af681e5b9",
+                "reference": "05c2fb627f5b8cb2c7203976832fa73af681e5b9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5 || >=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.7",
+                "satooshi/php-coveralls": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MF\\Validator\\": "src",
+                    "MF\\Tests\\": "Tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Petr Chromec",
+                    "email": "mortal_flesh@seznam.cz"
+                }
+            ],
+            "description": "TypeValidator for asserting types of values",
+            "time": "2016-09-05 16:45:50"
+        },
+        {
+            "name": "morrisonlevi/ardent",
+            "version": "0.21.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/morrisonlevi/Ardent.git",
+                "reference": "d26cdeaf740f661a508254de9717884c6d7626d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/morrisonlevi/Ardent/zipball/d26cdeaf740f661a508254de9717884c6d7626d9",
+                "reference": "d26cdeaf740f661a508254de9717884c6d7626d9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5 || ^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.21-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Collection/function.php"
+                ],
+                "psr-4": {
+                    "Ardent\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Levi Morrison",
+                    "email": "levim@php.net",
+                    "homepage": "http://morrisonlevi.github.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A healthy library for PHP",
+            "homepage": "https://github.com/morrisonlevi/Ardent",
+            "keywords": [
+                "algorithms",
+                "ardent",
+                "collections",
+                "data structures",
+                "library",
+                "php",
+                "spl"
+            ],
+            "time": "2016-05-16 17:06:52"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

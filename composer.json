@@ -1,0 +1,20 @@
+{
+    "name": "mf/performance-tests",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Petr Chromec",
+            "email": "mortal_flesh@seznam.cz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MF\\": "src"
+        }
+    },
+    "require": {
+        "mf/collections-php": "^1.0",
+        "morrisonlevi/ardent": "^0.21.1"
+    }
+}
