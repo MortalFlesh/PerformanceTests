@@ -98,3 +98,20 @@ $ardentLinkedListTest = function () use ($itemCount) {
     echo count($mapped) . '<br>';
     unset($linkedList, $mapped);
 };
+
+$arrayCollectionTest = function () use ($itemCount) {
+    $collection = new \Doctrine\Common\Collections\ArrayCollection();
+
+    for ($i = 0; $i < $itemCount; $i++) {
+        $collection->add($i);
+    }
+
+    echo count($collection) . '<br>';
+
+    $mapped = $collection->map(function($i) {
+        return $i + 1;
+    });
+
+    echo count($mapped) . '<br>';
+    unset($collection, $mapped);
+};

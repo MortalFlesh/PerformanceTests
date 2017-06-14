@@ -1,5 +1,6 @@
 {
     "name": "mf/performance-tests",
+    "description": "Collection performance tests",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -15,6 +16,7 @@
     },
     "require": {
         "mf/collections-php": "^1.0",
-        "morrisonlevi/ardent": "^0.21.1"
+        "morrisonlevi/ardent": "^0.21.1",
+        "doctrine/common": "^2.7"
     }
 }

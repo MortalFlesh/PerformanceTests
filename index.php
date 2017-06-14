@@ -18,7 +18,8 @@ require_once __DIR__ . '/tests/lists/' . $testType . '.php';
 //$test = ['GenericList', $genericListTest];
 //$test = ['ImmutableList', $immutableListTest];
 //$test = ['ImmutableGenericList', $immutableGenericListTest];
-$test = ['ArdentLinkedList', $ardentLinkedListTest];
+//$test = ['ArdentLinkedList', $ardentLinkedListTest];
+$test = ['ArrayCollection', $ardentLinkedListTest];
 
 //
 // *******************************************************************
@@ -36,3 +37,4 @@ foreach ($results as $result) {
 }
 
 file_put_contents(__DIR__ . '/results/' . $testName . '.json', sprintf('[%s]', implode(',', $jsonData)));
+echo "\n";
