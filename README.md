@@ -32,9 +32,9 @@ PerformanceTests
 |----------------------|-------------|--------|
 | Array                | 131         |        |
 | List                 | 311         |        |
-| ImmutableList        | 346         |   ++   |
-| GenericList          | 1299        |   -    |
-| LinkedList           | 1756        |   -    |
+| ImmutableList        | 346         |        |
+| GenericList          | 1299        |        |
+| LinkedList           | 1756        |        |
 | ImmutableGenericList | 1767        |        |
 | ArrayCollection      | 3569        |   N/A  |
 
@@ -66,7 +66,7 @@ PerformanceTests
 |----------------------|-------------|
 | Array                | 185         |
 | List                 | 404         |
+| ImmutableList        | 670         |
 | GenericList          | 1362        |
 | LinkedList           | 2006        |
-| ImmutableList        | 670         |
 | ImmutableGenericList | 2569        |
