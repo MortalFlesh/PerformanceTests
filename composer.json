@@ -12,10 +12,13 @@
     "autoload": {
         "psr-4": {
             "MF\\": "src"
-        }
+        },
+        "files": [
+            "src/utils.php"
+        ]
     },
     "require": {
-        "mf/collections-php": "^1.0",
+        "mf/collections-php": "^3.2",
         "morrisonlevi/ardent": "^0.21.1",
         "doctrine/common": "^2.7"
     }
